@@ -1,0 +1,39 @@
+{
+    "name": "@brendangooch/keyboard-input",
+    "version": "1.0.0",
+    "description": "",
+    "author": "B Gooch <brendangooch@gmail.com>",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "build": "tsc -p tsconfig.prod.json",
+        "build-dev": "npm run prebuild && tsc",
+        "prebuild": "npm run remove-lib",
+        "prepack": "npm run build",
+        "remove-lib": "rm -rf lib"
+    },
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "exports": {
+        ".": "./lib/index.js"
+    },
+    "types": "./lib/index.d.ts",
+    "files": [
+        "/lib"
+    ],
+    "devDependencies": {
+        "typescript": "^5.6.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brendangooch/keyboard-input.git"
+    },
+    "homepage": "https://github.com/brendangooch/keyboard-input#readme",
+    "bugs": {
+        "url": "https://github.com/brendangooch/keyboard-input/issues",
+        "email": "brendangooch@gmail.com"
+    },
+    "keywords": []
+}

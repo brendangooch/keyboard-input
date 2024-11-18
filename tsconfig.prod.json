@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig",
+    "exclude": [
+        "**/*.test.ts",
+        "**/*.spec.ts"
+    ],
+    "compilerOptions": {
+        "sourceMap": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
+    }
+}
