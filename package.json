@@ -35,5 +35,8 @@
         "url": "https://github.com/brendangooch/keyboard-input/issues",
         "email": "brendangooch@gmail.com"
     },
-    "keywords": []
+    "keywords": [],
+    "dependencies": {
+        "@brendangooch/utils": "^2.2.0"
+    }
 }

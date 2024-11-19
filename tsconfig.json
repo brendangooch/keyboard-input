@@ -3,7 +3,7 @@
     "strict": true,
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "target": "ES6",
+    "target": "ES2016",
     "rootDir": "./src",
     "outDir": "./lib",
     "declaration": true,
